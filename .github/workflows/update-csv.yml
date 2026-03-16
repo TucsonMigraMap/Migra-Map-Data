@@ -14,7 +14,7 @@ jobs:
       - name: Download latest CSV
         run: curl -L "https://docs.google.com/spreadsheets/d/e/2PACX-1vRl0u5cD7Pqam-o_qXLfxDqxWfQH-icDDA6btfFcvh6dz19HGS5CJHwihBlA00asJTuLTabyhLLI2Aa/pub?gid=1130252425&single=true&output=csv" -o data.csv
 
-            - name: Commit updated CSV
+      - name: Commit updated CSV
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"

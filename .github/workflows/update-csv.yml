@@ -16,7 +16,8 @@ jobs:
       
       - name: Debug CSV content
         run: | 
-          echo "First 5 lines of CSV:"head -n 5 data.csv
+          echo "First 5 lines of CSV:"
+          head -n 5 data.csv
       
       - name: Commit updated CSV
         run: |

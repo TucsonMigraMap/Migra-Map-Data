@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: update-csv
+  group: update-csv-english
   cancel-in-progress: true
 
 permissions:
